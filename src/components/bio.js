@@ -23,9 +23,14 @@ const Bio = () => {
       }
       site {
         siteMetadata {
-          author
+          author {
+            name
+            description
+          }
           social {
-            twitter
+            github
+            linkedin
+            medium
           }
         }
       }
@@ -54,12 +59,10 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        Me chamo <strong>{author.name}</strong>. {author.description}
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
+       <br/>
+       Me siga no <a href={`https://github.com/${social.github}`}>github</a>, <a href={`https://linkedin.com/in/${social.linkedin}`}>linkedin</a> e <a href={`https://medium.com/${social.medium}`}>medium</a>
       </p>
     </div>
   )

@@ -1,11 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `azeredogab`,
+    author: {
+      name: `Gabriel Azeredo`, 
+      description: 'Sou desenvolvedor fullstack. Atuando a 7 anos no mundo de dev, ainda continuo apaixonado.'
+    },
+    description: `Um pouco de conhecimento compartilhado sobre Desenvolvimento de software, arquitetura, testes e mais algumas coisas.`,
+    siteUrl: `https://azeredogab.com/`,
     social: {
-      twitter: `kylemathews`,
+      github: `AzeredoGab`,
+      linkedin: 'gabriel-almeida-53799750',
+      medium: '@azeredogab'
     },
   },
   plugins: [
