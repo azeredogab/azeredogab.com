@@ -8,8 +8,8 @@ module.exports = {
     description: `Um pouco de conhecimento compartilhado sobre Desenvolvimento de software, arquitetura, testes e mais algumas coisas.`,
     siteUrl: `https://azeredogab.com/`,
     social: {
-      github: `AzeredoGab`,
-      linkedin: 'gabriel-almeida-53799750',
+      github: `azeredogab`,
+      linkedin: 'azeredogab',
       medium: '@azeredogab'
     },
   },
