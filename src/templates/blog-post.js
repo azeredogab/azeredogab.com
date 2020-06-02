@@ -11,12 +11,15 @@ class BlogPostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+    const { frontmatter } = post; 
+    const { slug } = post.fields; 
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
+          image={`${slug}facebook-share.jpg` || `facebook-share.jpg`}
         />
         <article>
           <header>
@@ -95,8 +98,12 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD/MM/YYYY")
         description
+        image
+      }
+      fields {
+        slug
       }
     }
   }

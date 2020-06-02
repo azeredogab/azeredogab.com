@@ -14,7 +14,10 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Desenvolvimento de software, Arquitetura, PHP e NodeJS" />
+        <SEO 
+          title="Desenvolvimento de software, Arquitetura, PHP e NodeJS" 
+          image=""
+        />
         <Bio />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
@@ -64,7 +67,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD/MM/YYYY")
             title
             description
           }
