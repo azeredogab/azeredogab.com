@@ -1,94 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[azeredogab]]></title><description><![CDATA[Um pouco de conhecimento compartilhado sobre Desenvolvimento de software, arquitetura, testes e mais algumas coisas.]]></description><link>https://azeredogab.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 25 Jan 2020 03:50:57 GMT</lastBuildDate><item><title><![CDATA[O que podemos esperar do PHP 8 ?]]></title><description><![CDATA[Em desenvolvimento…]]></description><link>https://azeredogab.com/o-que-podemos-esperar-do-php-8/</link><guid isPermaLink="false">https://azeredogab.com/o-que-podemos-esperar-do-php-8/</guid><pubDate>Mon, 06 Jan 2020 02:02:32 GMT</pubDate><content:encoded>&lt;h2&gt;Em desenvolvimento…&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[Entendendo melhor a Clean Architecture]]></title><description><![CDATA[Em desenvolvimento…]]></description><link>https://azeredogab.com/entendendo-melhor-a-clean-architecture/</link><guid isPermaLink="false">https://azeredogab.com/entendendo-melhor-a-clean-architecture/</guid><pubDate>Sun, 05 Jan 2020 02:02:32 GMT</pubDate><content:encoded>&lt;h2&gt;Em desenvolvimento…&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://azeredogab.com/new-beginnings/</link><guid isPermaLink="false">https://azeredogab.com/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.&lt;/p&gt;
-&lt;h2&gt;On deer horse aboard tritely yikes and much&lt;/h2&gt;
-&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[azeredogab]]></title><description><![CDATA[Um pouco de conhecimento compartilhado sobre Desenvolvimento de software, arquitetura, testes e mais algumas coisas.]]></description><link>https://azeredogab.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 02 Jun 2020 00:04:35 GMT</lastBuildDate><item><title><![CDATA[PHP 8 e a entrada do JIT]]></title><description><![CDATA[Se você é desenvolvedor PHP a algum tempo e gosta de acompanhar as novidades da linguagem, provavelmente já ouviu falar que o compilador JIT…]]></description><link>https://azeredogab.com/php-8-e-a-entrada-do-JIT/</link><guid isPermaLink="false">https://azeredogab.com/php-8-e-a-entrada-do-JIT/</guid><pubDate>Sun, 05 Jan 2020 02:02:32 GMT</pubDate><content:encoded>&lt;p&gt;Se você é desenvolvedor PHP a algum tempo e gosta de acompanhar as novidades da linguagem, provavelmente já ouviu falar que o compilador JIT será adicionado no PHP 8. Se não ouviu, essa foi a &lt;a href=&quot;https://wiki.php.net/rfc/jit#proposed_voting_choices&quot;&gt;votação&lt;/a&gt; que tornou isso realidade. 90% dos core contributors votaram para essa feature entrasse no PHP 8. Desde o PHP 7 tivemos várias mudanças com o foco em aumento de perfomance, mas creio que esse seja um grande avanço na linguagem. Essa feature é bem grande e seu desenvolvimento foi iniciado a 2 anos atrás, sendo que ainda temos mais 1 ano até o lançamento do PHP 8. Nesse artigo vamos entrar um pouco no que teremos com esse novo avanço. &lt;/p&gt;
+&lt;h2&gt;O que é o JIT ?&lt;/h2&gt;
+&lt;p&gt;Talvez você não tenha ouvido falar sobre o JIT antes, então vou dar uma explicação rápida. Você provavelmente já sabe que o PHP é uma linguagem insterpretada, isso significa que o código não necessáriamente é compilado antes de rodar (como o C/C++). Ao invés disso, a engine do PHP irá ler o seu código e roda-lo. Em outras palavras, você cria código de script e dá isso para o PHP rodar.&lt;/p&gt;
+&lt;p&gt;PHP possui uma maquina virtual chamada Zend VM. Ela é responsável por ler e rodar o seu código PHP, mas antes disso, o seu código será lido e transformado em OPCode, que é a linguagem que a Zend VM entende. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/62fec0b0f99aeebbdbf6b2c00d762b22/11d19/JIT-example.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 23%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAACXBIWXMAAAsSAAALEgHS3X78AAAAqElEQVQY05VPzQqEIBj0/R/KQ9Cli+Ahtw4R9mNJKGRQmegOdVn2sLBzGIZhdOYjTdOs65pSijGmP0G01pRS733XdcMwHMehbyilwPM8b9vmnJumCRrmsiznee77fl0XQS3KkcNLJOq6Hsex73vGmJQSom1bcFmWQgjOeVVV1tosy15CkDzPi6IIITxLIIwx9gM4ByUohA/GCsQwE1+TcOPHwfHGl/OIN6SWGjuo1zTLAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Demonstração&quot;
+        title=&quot;Demonstração&quot;
+        src=&quot;/static/62fec0b0f99aeebbdbf6b2c00d762b22/799d3/JIT-example.png&quot;
+        srcset=&quot;/static/62fec0b0f99aeebbdbf6b2c00d762b22/00d96/JIT-example.png 148w,
+/static/62fec0b0f99aeebbdbf6b2c00d762b22/0b23c/JIT-example.png 295w,
+/static/62fec0b0f99aeebbdbf6b2c00d762b22/799d3/JIT-example.png 590w,
+/static/62fec0b0f99aeebbdbf6b2c00d762b22/11d19/JIT-example.png 800w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt; &lt;/p&gt;
+&lt;p&gt;Sendo assim, nós precisamos de um primeiro passo de compilação e então outro passo de interpretação, como exemplificado na imagem acima. Para ganhar performance, nós temos o chamado OPCache (OPCode Cache), que guarda o resultado da compilação para que não seja necessário compilar novamente da próxima vez. &lt;/p&gt;
+&lt;p&gt;O PHP irá funcionar de maneira um pouco diferente a partir de agora. Por baixo dos panos o PHP utilizará uma biblioteca chamada Dynamic Assembler &lt;a href=&quot;https://luajit.org/dynasm.html&quot;&gt;DynASM&lt;/a&gt;. Essa biblioteca foi desenvolvida inicialmente para ser o compilador JIT da linguagem Lua, mas também é possível utiliza-la para outras projetos. Esse foi o caso do PHP. Utilizando isso, o PHP é capaz de transformar os OPCodes em códigos de maquina específicos. Assim, o PHP consegue “pular” a etapa de interpretar o código feita pela Zend VM e o executa diretamente.&lt;/p&gt;
+&lt;p&gt;Mas será que fica realmente rápido ? &lt;/p&gt;
+&lt;p&gt;Esse vídeo abaixo mostra uma comparação entre o PHP com o compilador JIT e a versão anterior (sem o JIT). &lt;/p&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 56.25%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;iframe src=&quot;https://www.youtube.com/embed/dWH65pmnsrI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt; &lt;/div&gt;
+&lt;p&gt;Nesse exemplo do vídeo, o PHP foi utilizado para criar uma imagem 3D. Sabemos que esse não é o uso comum da linguagem. Esse exemplo foi dado porque agora nosso código é compilado em linguagem de máquina e roda diretamente pela CPU, ao invés de passar pelo interpretador, então o principal ganho de performance é relacionado ao uso de CPU. Se fosse feito um teste com uma aplicação web padrão, normalmente dependeria de I/O (Banco de dados, Upload de arquivos, Requests HTTP e etc). Então, para obter um resultado “limpo”, foi colocado esse cenário de renderização de imagem 3D. &lt;/p&gt;
+&lt;p&gt;Desde o PHP 7.0, o tópico &lt;code class=&quot;language-text&quot;&gt;performance&lt;/code&gt; tem sido mais abordado do que nunca, em parte graças à competição com o HHVM do facebook (que também tem um compilador JIT). Várias aspectos da linguagem como OPCache, estruturas de dados, e etc estão sendo otimizados pouco a pouco. Hoje, chegamos em um ponto onde não há mais muita coisa que iria trazer um aumento significativo de desempenho nesses tópicos.  &lt;/p&gt;
+&lt;p&gt;Além disso, a performance do PHP para uma linguagem de servidor pode ser considerado muito boa, esquecendo o PHP lento do passado. Então agora podemos pensar em expandir as capacidades do PHP para novas áreas como análise de dados, renderização 3D / 2D e mais. &lt;/p&gt;
+&lt;p&gt;No passado, código de alta performance era escrito com extensões C/C++ ao invés de pacotes PHP normais. Por exemplo, o &lt;code class=&quot;language-text&quot;&gt;phpredis&lt;/code&gt; é 6-7 vezes mais rápido do que o &lt;code class=&quot;language-text&quot;&gt;predis&lt;/code&gt;. Se o código PHP é compilado ao invés de interpretado, nós teremos pacotes PHP com a mesma performance de extensões escritas em C/C++. &lt;/p&gt;
+&lt;p&gt;Agora vamos a um experimento: &lt;/p&gt;
+&lt;p&gt;Para conseguirmos realizar esse teste da forma mais prática possível, iremos utilizar essa imagem docker (akondas/php:8.0-cli-alpine). Nesse experimento iremos rodar uma simples função de fibonacci. &lt;/p&gt;
+&lt;p&gt;Com o docker já instalado e configurado na sua maquina, podemos criar uma função fibonacci chamada &lt;code class=&quot;language-text&quot;&gt;fibo.php&lt;/code&gt;, com o código a seguir: &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;php&quot;&gt;&lt;pre class=&quot;language-php&quot;&gt;&lt;code class=&quot;language-php&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fibonacci&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$n&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$n&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fibonacci&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$n&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fibonacci&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$n&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token variable&quot;&gt;$n&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;$start&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;microtime&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean constant&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;$fibonacci&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fibonacci&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$n&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token variable&quot;&gt;$stop&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;microtime&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token boolean constant&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sprintf&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token double-quoted-string string&quot;&gt;&quot;Fibonacci(%s): %s\nTime: %s&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$n&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$fibonacci&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$stop&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$start&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Agora iremos rodar essa função, executando primeiro em um contrainer PHP 8, mas sem o JIT habilitado. Para fazer isso utilize o comando: &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;docker run -it -v &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token environment constant&quot;&gt;$PWD&lt;/span&gt;&quot;&lt;/span&gt;:/usr/src/app -w /usr/src/app &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+akondas/php:8.0-cli-alpine php fibo.php
+
+Fibonacci&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token number&quot;&gt;3524578&lt;/span&gt;
+Time: &lt;span class=&quot;token number&quot;&gt;0.17796015739441&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Para fianlizar o nosso teste, iremos rodar agora com o JIT habilitado e vamos ver o que acontece.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;docker run -it -v &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token environment constant&quot;&gt;$PWD&lt;/span&gt;&quot;&lt;/span&gt;:/usr/src/app -w /usr/src/app &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+akondas/php:8.0-cli-alpine php -dzend_extension&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;opcache.so &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+-dopcache.enable_cli&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; -dopcache.jit_buffer_size&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;500000000&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+-dopcache.jit&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1235&lt;/span&gt; fibo.php
+
+Fibonacci&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token number&quot;&gt;3524578&lt;/span&gt;
+Time: &lt;span class=&quot;token number&quot;&gt;0.050444841384888&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Como podemos ver, a diferença é impressionante. &lt;code class=&quot;language-text&quot;&gt;0.1779&lt;/code&gt; vs &lt;code class=&quot;language-text&quot;&gt;0.0504&lt;/code&gt;. Com o JIT habilitado tivemos um aumento de &lt;code class=&quot;language-text&quot;&gt;252%&lt;/code&gt; na execução.&lt;/p&gt;
+&lt;p&gt;Certamente o JIT será uma melhoria que irá beneficiar muito o ecosistema PHP, então, vamos aproveitar! &lt;/p&gt;
+&lt;h3&gt;Referências:&lt;/h3&gt;
+&lt;p&gt;Esse texto é uma tradução/adaptação dos seguintes artigos: &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;This however showed weasel&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Well uncritical so misled&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;this is very interesting&lt;/li&gt;
+&lt;li&gt;🙏 &lt;a href=&quot;https://medium.com/jp-tech/try-out-jit-compiler-with-php-8-0-a020e6aeb3e5&quot;&gt;https://medium.com/jp-tech/try-out-jit-compiler-with-php-8-0-a020e6aeb3e5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🙏 &lt;a href=&quot;https://arkadiuszkondas.com/how-to-run-php-8-with-jit-support-using-docker/&quot;&gt;https://arkadiuszkondas.com/how-to-run-php-8-with-jit-support-using-docker/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Goodness much until that fluid owl&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;When she reached the first hills of the &lt;strong&gt;Italic Mountains&lt;/strong&gt;, she had a last
-view back on the skyline of her hometown &lt;em&gt;Bookmarksgrove&lt;/em&gt;, the headline of
-&lt;a href=&quot;http://google.com&quot;&gt;Alphabet Village&lt;/a&gt; and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.&lt;/p&gt;
-&lt;h3&gt;Overlaid the jeepers uselessly much excluding&lt;/h3&gt;
-&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-&lt;a href=&quot;http://google.com&quot;&gt;Longe and Parole&lt;/a&gt; and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
-&lt;h3&gt;According a funnily until pre-set or arrogant well cheerful&lt;/h3&gt;
-&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;So baboon this&lt;/li&gt;
-&lt;li&gt;Mounted militant weasel gregariously admonishingly straightly hey&lt;/li&gt;
-&lt;li&gt;Dear foresaw hungry and much some overhung&lt;/li&gt;
-&lt;li&gt;Rash opossum less because less some amid besides yikes jeepers frenetic
-impassive fruitlessly shut&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rhetoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word “and” and the Little Blind Text should turn around and
-return to its own, safe country.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.&lt;/p&gt;
-&lt;h4&gt;Silent delightfully including because before one up barring chameleon&lt;/h4&gt;
-&lt;p&gt;Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.&lt;/p&gt;
-&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.&lt;/p&gt;
-&lt;h5&gt;Wherever far wow thus a squirrel raccoon jeez jaguar this from along&lt;/h5&gt;
-&lt;p&gt;She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rhetoric question ran over her cheek, then she continued her way. On her way she
-met a copy.&lt;/p&gt;
-&lt;h6&gt;Slapped cozy a that lightheartedly and far&lt;/h6&gt;
-&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word “and” and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Aos autores meu agradecimento pelo conteúdo de qualidade.&lt;/p&gt;</content:encoded></item></channel></rss>
