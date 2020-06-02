@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[azeredogab]]></title><description><![CDATA[Um pouco de conhecimento compartilhado sobre Desenvolvimento de software, arquitetura, testes e mais algumas coisas.]]></description><link>https://azeredogab.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 02 Jun 2020 00:04:35 GMT</lastBuildDate><item><title><![CDATA[PHP 8 e a entrada do JIT]]></title><description><![CDATA[Se você é desenvolvedor PHP a algum tempo e gosta de acompanhar as novidades da linguagem, provavelmente já ouviu falar que o compilador JIT…]]></description><link>https://azeredogab.com/php-8-e-a-entrada-do-JIT/</link><guid isPermaLink="false">https://azeredogab.com/php-8-e-a-entrada-do-JIT/</guid><pubDate>Sun, 05 Jan 2020 02:02:32 GMT</pubDate><content:encoded>&lt;p&gt;Se você é desenvolvedor PHP a algum tempo e gosta de acompanhar as novidades da linguagem, provavelmente já ouviu falar que o compilador JIT será adicionado no PHP 8. Se não ouviu, essa foi a &lt;a href=&quot;https://wiki.php.net/rfc/jit#proposed_voting_choices&quot;&gt;votação&lt;/a&gt; que tornou isso realidade. 90% dos core contributors votaram para essa feature entrasse no PHP 8. Desde o PHP 7 tivemos várias mudanças com o foco em aumento de perfomance, mas creio que esse seja um grande avanço na linguagem. Essa feature é bem grande e seu desenvolvimento foi iniciado a 2 anos atrás, sendo que ainda temos mais 1 ano até o lançamento do PHP 8. Nesse artigo vamos entrar um pouco no que teremos com esse novo avanço. &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[azeredogab]]></title><description><![CDATA[Um pouco de conhecimento compartilhado sobre Desenvolvimento de software, arquitetura, testes e mais algumas coisas.]]></description><link>https://azeredogab.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 02 Jun 2020 23:50:21 GMT</lastBuildDate><item><title><![CDATA[PHP 8 e a entrada do JIT]]></title><description><![CDATA[Se você é desenvolvedor PHP a algum tempo e gosta de acompanhar as novidades da linguagem, provavelmente já ouviu falar que o compilador JIT…]]></description><link>https://azeredogab.com/php-8-e-a-entrada-do-JIT/</link><guid isPermaLink="false">https://azeredogab.com/php-8-e-a-entrada-do-JIT/</guid><pubDate>Sun, 05 Jan 2020 02:02:32 GMT</pubDate><content:encoded>&lt;p&gt;Se você é desenvolvedor PHP a algum tempo e gosta de acompanhar as novidades da linguagem, provavelmente já ouviu falar que o compilador JIT será adicionado no PHP 8. Se não ouviu, essa foi a &lt;a href=&quot;https://wiki.php.net/rfc/jit#proposed_voting_choices&quot;&gt;votação&lt;/a&gt; que tornou isso realidade. 90% dos core contributors votaram para essa feature entrasse no PHP 8. Desde o PHP 7 tivemos várias mudanças com o foco em aumento de perfomance, mas creio que esse seja um grande avanço na linguagem. Essa feature é bem grande e seu desenvolvimento foi iniciado a 2 anos atrás, sendo que ainda temos mais 1 ano até o lançamento do PHP 8. Nesse artigo vamos entrar um pouco no que teremos com esse novo avanço. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5a676de0613ce06d5288b5e9ce12b78a/26df7/o-que-php-1024x512.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsSAAALEgHS3X78AAAAzUlEQVQoz2PonHyQaHQATYQBiDsmHSBGM1AZBKFohkvA2WDyYPe0I8g60QzCqhlEtk/cB+TWtm1o7t3VMXE/qh6E/Qwwew7AGT3TjuaVzYlMqHfxTAyLrY5KaIhPbcPqEQY0z3RM2t8z/VhQRElgeHFCWkdwZLmLZ1Ja7oSuKYcgjoKpxO5sEKpoWNk+cX/fzJONXVtrWzf0Tj8GD2qUAINqQ9XcO/0o2Of7u6Yc7pl2BFd0MKBFAHIQwM1FthDubCDJgBbOWCMGM5IgigEyZGuRv4HQkAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PHP&quot;
+        title=&quot;PHP&quot;
+        src=&quot;/static/5a676de0613ce06d5288b5e9ce12b78a/799d3/o-que-php-1024x512.png&quot;
+        srcset=&quot;/static/5a676de0613ce06d5288b5e9ce12b78a/00d96/o-que-php-1024x512.png 148w,
+/static/5a676de0613ce06d5288b5e9ce12b78a/0b23c/o-que-php-1024x512.png 295w,
+/static/5a676de0613ce06d5288b5e9ce12b78a/799d3/o-que-php-1024x512.png 590w,
+/static/5a676de0613ce06d5288b5e9ce12b78a/2a3d6/o-que-php-1024x512.png 885w,
+/static/5a676de0613ce06d5288b5e9ce12b78a/26df7/o-que-php-1024x512.png 1024w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt; &lt;/p&gt;
 &lt;h2&gt;O que é o JIT ?&lt;/h2&gt;
 &lt;p&gt;Talvez você não tenha ouvido falar sobre o JIT antes, então vou dar uma explicação rápida. Você provavelmente já sabe que o PHP é uma linguagem insterpretada, isso significa que o código não necessáriamente é compilado antes de rodar (como o C/C++). Ao invés disso, a engine do PHP irá ler o seu código e roda-lo. Em outras palavras, você cria código de script e dá isso para o PHP rodar.&lt;/p&gt;
 &lt;p&gt;PHP possui uma maquina virtual chamada Zend VM. Ela é responsável por ler e rodar o seu código PHP, mas antes disso, o seu código será lido e transformado em OPCode, que é a linguagem que a Zend VM entende. &lt;/p&gt;
