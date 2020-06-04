@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[azeredogab]]></title><description><![CDATA[Um pouco de conhecimento compartilhado sobre Desenvolvimento de software, arquitetura, testes e mais algumas coisas.]]></description><link>https://azeredogab.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 02 Jun 2020 23:54:36 GMT</lastBuildDate><item><title><![CDATA[PHP 8 e a entrada do JIT]]></title><description><![CDATA[Se você é desenvolvedor PHP a algum tempo e gosta de acompanhar as novidades da linguagem, provavelmente já ouviu falar que o compilador JIT…]]></description><link>https://azeredogab.com/php-8-e-a-entrada-do-JIT/</link><guid isPermaLink="false">https://azeredogab.com/php-8-e-a-entrada-do-JIT/</guid><pubDate>Sun, 05 Jan 2020 02:02:32 GMT</pubDate><content:encoded>&lt;p&gt;Se você é desenvolvedor PHP a algum tempo e gosta de acompanhar as novidades da linguagem, provavelmente já ouviu falar que o compilador JIT será adicionado no PHP 8. Se não ouviu, essa foi a &lt;a href=&quot;https://wiki.php.net/rfc/jit#proposed_voting_choices&quot;&gt;votação&lt;/a&gt; que tornou isso realidade. 90% dos core contributors votaram para essa feature entrasse no PHP 8. Desde o PHP 7 tivemos várias mudanças com o foco em aumento de perfomance, mas creio que esse seja um grande avanço na linguagem. Essa feature é bem grande e seu desenvolvimento foi iniciado a 2 anos atrás, sendo que ainda temos mais 1 ano até o lançamento do PHP 8. Nesse artigo vamos entrar um pouco no que teremos com esse novo avanço. &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[azeredogab]]></title><description><![CDATA[Um pouco de conhecimento compartilhado sobre Desenvolvimento de software, arquitetura, testes e mais algumas coisas.]]></description><link>https://azeredogab.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 04 Jun 2020 17:06:09 GMT</lastBuildDate><item><title><![CDATA[PHP 8 e a entrada do JIT]]></title><description><![CDATA[Se você é desenvolvedor PHP a algum tempo e gosta de acompanhar as novidades da linguagem, provavelmente já ouviu falar que o compilador JIT…]]></description><link>https://azeredogab.com/php-8-e-a-entrada-do-JIT/</link><guid isPermaLink="false">https://azeredogab.com/php-8-e-a-entrada-do-JIT/</guid><pubDate>Sun, 05 Jan 2020 02:02:32 GMT</pubDate><content:encoded>&lt;p&gt;Se você é desenvolvedor PHP a algum tempo e gosta de acompanhar as novidades da linguagem, provavelmente já ouviu falar que o compilador JIT será adicionado no PHP 8. Se não ouviu, essa foi a &lt;a href=&quot;https://wiki.php.net/rfc/jit#proposed_voting_choices&quot;&gt;votação&lt;/a&gt; que tornou isso realidade. 90% dos core contributors votaram para essa feature entrasse no PHP 8. Desde o PHP 7 tivemos várias mudanças com o foco em aumento de perfomance, mas creio que esse seja um grande avanço na linguagem. Essa feature é bem grande e seu desenvolvimento foi iniciado a 2 anos atrás, sendo que ainda temos mais 1 ano até o lançamento do PHP 8. Nesse artigo vamos entrar um pouco no que teremos com esse novo avanço. &lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5a676de0613ce06d5288b5e9ce12b78a/26df7/o-que-php-1024x512.png&quot;
+    href=&quot;/static/5a676de0613ce06d5288b5e9ce12b78a/2bef9/o-que-php-1024x512.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -18,13 +18,14 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;PHP&quot;
         title=&quot;PHP&quot;
-        src=&quot;/static/5a676de0613ce06d5288b5e9ce12b78a/799d3/o-que-php-1024x512.png&quot;
-        srcset=&quot;/static/5a676de0613ce06d5288b5e9ce12b78a/00d96/o-que-php-1024x512.png 148w,
-/static/5a676de0613ce06d5288b5e9ce12b78a/0b23c/o-que-php-1024x512.png 295w,
-/static/5a676de0613ce06d5288b5e9ce12b78a/799d3/o-que-php-1024x512.png 590w,
-/static/5a676de0613ce06d5288b5e9ce12b78a/2a3d6/o-que-php-1024x512.png 885w,
-/static/5a676de0613ce06d5288b5e9ce12b78a/26df7/o-que-php-1024x512.png 1024w&quot;
+        src=&quot;/static/5a676de0613ce06d5288b5e9ce12b78a/fcda8/o-que-php-1024x512.png&quot;
+        srcset=&quot;/static/5a676de0613ce06d5288b5e9ce12b78a/12f09/o-que-php-1024x512.png 148w,
+/static/5a676de0613ce06d5288b5e9ce12b78a/e4a3f/o-que-php-1024x512.png 295w,
+/static/5a676de0613ce06d5288b5e9ce12b78a/fcda8/o-que-php-1024x512.png 590w,
+/static/5a676de0613ce06d5288b5e9ce12b78a/efc66/o-que-php-1024x512.png 885w,
+/static/5a676de0613ce06d5288b5e9ce12b78a/2bef9/o-que-php-1024x512.png 1024w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
@@ -34,29 +35,30 @@
 &lt;p&gt;PHP possui uma maquina virtual chamada Zend VM. Ela é responsável por ler e rodar o seu código PHP, mas antes disso, o seu código será lido e transformado em OPCode, que é a linguagem que a Zend VM entende. &lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/62fec0b0f99aeebbdbf6b2c00d762b22/11d19/JIT-example.png&quot;
+    href=&quot;/static/62fec0b0f99aeebbdbf6b2c00d762b22/5a190/JIT-example.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 23%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAACXBIWXMAAAsSAAALEgHS3X78AAAAqElEQVQY05VPzQqEIBj0/R/KQ9Cli+Ahtw4R9mNJKGRQmegOdVn2sLBzGIZhdOYjTdOs65pSijGmP0G01pRS733XdcMwHMehbyilwPM8b9vmnJumCRrmsiznee77fl0XQS3KkcNLJOq6Hsex73vGmJQSom1bcFmWQgjOeVVV1tosy15CkDzPi6IIITxLIIwx9gM4ByUohA/GCsQwE1+TcOPHwfHGl/OIN6SWGjuo1zTLAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 22.972972972972975%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAACXBIWXMAAAsSAAALEgHS3X78AAAAqElEQVQY05VPzQqEIBj0/R/KQ9Cli+Ahtw4R9mNJKGRQmegOdVn2sLBzGIZhdOYjTdOs65pSijGmP0G01pRS733XdcMwHMehbyilwPM8b9vmnJumCRrmsiznee77fl0XQS3KkcNLJOq6Hsex73vGmJQSom1bcFmWQgjOeVVV1tosy15CkDzPi6IIITxLIIwx9gM4ByUohA/GCsQwE1+TcOPHwfHGl/OIN6SWGjuo1zTLAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Demonstração&quot;
         title=&quot;Demonstração&quot;
-        src=&quot;/static/62fec0b0f99aeebbdbf6b2c00d762b22/799d3/JIT-example.png&quot;
-        srcset=&quot;/static/62fec0b0f99aeebbdbf6b2c00d762b22/00d96/JIT-example.png 148w,
-/static/62fec0b0f99aeebbdbf6b2c00d762b22/0b23c/JIT-example.png 295w,
-/static/62fec0b0f99aeebbdbf6b2c00d762b22/799d3/JIT-example.png 590w,
-/static/62fec0b0f99aeebbdbf6b2c00d762b22/11d19/JIT-example.png 800w&quot;
+        src=&quot;/static/62fec0b0f99aeebbdbf6b2c00d762b22/fcda8/JIT-example.png&quot;
+        srcset=&quot;/static/62fec0b0f99aeebbdbf6b2c00d762b22/12f09/JIT-example.png 148w,
+/static/62fec0b0f99aeebbdbf6b2c00d762b22/e4a3f/JIT-example.png 295w,
+/static/62fec0b0f99aeebbdbf6b2c00d762b22/fcda8/JIT-example.png 590w,
+/static/62fec0b0f99aeebbdbf6b2c00d762b22/5a190/JIT-example.png 800w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
