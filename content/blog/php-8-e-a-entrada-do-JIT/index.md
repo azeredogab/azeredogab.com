@@ -3,6 +3,8 @@ title: PHP 8 e a entrada do JIT
 date: "2020-01-05T02:02:32.169Z"
 description: Vamos entender como é o funcionamento do por trás do JIT (Just in Time Compiler), uma nova feature que promote aumentar muito a performance do PHP 8.
 image: /php-8-e-a-entrada-do-JIT/facebook-share.jpg
+tags:
+    - development
 ---
 
 Se você é desenvolvedor PHP a algum tempo e gosta de acompanhar as novidades da linguagem, provavelmente já ouviu falar que o compilador JIT será adicionado no PHP 8. Se não ouviu, essa foi a [votação](https://wiki.php.net/rfc/jit#proposed_voting_choices) que tornou isso realidade. 90% dos core contributors votaram para essa feature entrasse no PHP 8. Desde o PHP 7 tivemos várias mudanças com o foco em aumento de perfomance, mas creio que esse seja um grande avanço na linguagem. Essa feature é bem grande e seu desenvolvimento foi iniciado a 2 anos atrás, sendo que ainda temos mais 1 ano até o lançamento do PHP 8. Nesse artigo vamos entrar um pouco no que teremos com esse novo avanço. 
