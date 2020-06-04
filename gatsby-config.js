@@ -52,12 +52,18 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-sitemap`,
+    
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-sitemap`,
       options: {
-        trackingId: `UA-98474952-1`,
-      },
+        output: `/sitemap.xml`
+      }
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-M4PMPPB"
+      }
     },
     `gatsby-plugin-feed`,
     {
@@ -69,7 +75,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/azeredogab-icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
