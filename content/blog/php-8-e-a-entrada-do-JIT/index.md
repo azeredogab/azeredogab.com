@@ -1,6 +1,6 @@
 ---
 title: PHP 8 e a entrada do JIT
-date: "2020-01-05T02:02:32.169Z"
+date: "2020-04-05T02:02:32.169Z"
 description: Vamos entender como é o funcionamento do por trás do JIT (Just in Time Compiler), uma nova feature que promote aumentar muito a performance do PHP 8.
 image: /php-8-e-a-entrada-do-JIT/facebook-share.jpg
 tags:
@@ -84,7 +84,7 @@ Como podemos ver, a diferença é impressionante. `0.1779` vs `0.0504`. Com o JI
 
 Certamente o JIT será uma melhoria que irá beneficiar muito o ecosistema PHP, então, vamos aproveitar! 
 
-### Referências:
+### Créditos:
 Esse texto é uma tradução/adaptação dos seguintes artigos: 
 
 - 🙏 https://medium.com/jp-tech/try-out-jit-compiler-with-php-8-0-a020e6aeb3e5
